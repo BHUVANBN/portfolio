@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Navbar from "./components/Navbar";
 import BentoProfile from "./components/BentoProfile";
 
@@ -14,9 +15,17 @@ export default function Home() {
       <BentoProfile />
       
       {/* Small Clean Bottom Footer */}
-      <div className="max-w-7xl mx-auto px-6 pb-24 mt-12 flex items-center justify-between text-white/20 text-[10px] uppercase font-mono font-bold tracking-[0.4em]">
-        <div></div>
-        <div>ARCHITECTED FOR PRECISION</div>
+      <div className="max-w-7xl mx-auto px-6 pb-8 flex justify-end">
+        <div className="p-1 flex items-center gap-3">
+          <p className="text-white/20 text-[10px] uppercase font-mono font-bold tracking-[0.4em]">BY</p>
+          <Image 
+            src="/projects/batman.png" 
+            alt="Batman Logo" 
+            width={40} 
+            height={40}
+            className="opacity-50"
+          />
+        </div>
       </div>
     </div>
   );

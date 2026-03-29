@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Mail, Shield, Cpu, Box, Code, MapPin, ExternalLink, GraduationCap, Trophy, Monitor, Terminal } from "lucide-react";
+import { ArrowUpRight, Mail, Shield, Cpu, Box, Code, MapPin, ExternalLink, GraduationCap, Trophy, Monitor, Terminal, Brain } from "lucide-react";
 import Image from "next/image";
 import { Github as GithubIcon, Linkedin as LinkedinIcon, Twitter as TwitterIcon } from "./Icons";
 
@@ -270,7 +270,7 @@ export default function BentoProfile() {
           <div className="space-y-6">
             {[
               { title: "Research Publication - IJRAR", desc: "Author of 'Smart Agricultural Land Integration System Using Blockchain'. Proposed Ethereum + IPFS decentralized land management (Peer-Reviewed)." },
-              { title: "Special Prize - HACK FUSION 1.0", desc: "24-hr Gen-AI Hackathon. Built Local LLM: a fully offline, privacy-first AI assistant via quantized models." },
+              { title: "Special Prize - HACK FUSION 1.0", desc: "24-hr Gen-AI Hackathon. Developed Mini-LLM: a fully offline, RAG-enabled AI pipeline via Ollama, ChromaDB, and LangChain." },
               { title: "1st Runner-Up - HAXLR8", desc: "24-hr Hackathon. Shipped a Gen-AI + API farmer supply-chain solution, competing with 60+ teams." },
               { title: "1st Place - Web Designing Competition 2K25", desc: "BGSIT (Adichunchanagiri University). Innovative Tourism App for Mysuru using Next.js." },
               { title: "Certified Chief Information Officer (CCIO)", desc: "ISAC India | NPTEL: Cyber Security & Privacy - Elite Certificate." },

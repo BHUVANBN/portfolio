@@ -66,9 +66,9 @@ const mainProjects = [
     icon: <Terminal className="w-4 h-4" />
   },
   {
-    title: "Mini-LLM: Local RAG Knowledge Base",
+    title: "Mini-LLM: Local RAG Knowledge Base AI / Retrieval-Augmented Generation",
     tag: "AI / Retrieval-Augmented Generation",
-    desc: "Fully offline AI pipeline utilizing FAISS and LangChain for private enterprise document intelligence.",
+    desc: "Fully offline AI pipeline utilizing ChromaDB, Ollama, and LangChain for private enterprise document intelligence and secure knowledge management.",
     href: "https://github.com/BHUVANBN/MiniLLM",
     icon: <Code className="w-4 h-4" />,
     imagePosition: "left",

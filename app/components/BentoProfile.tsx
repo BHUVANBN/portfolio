@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Mail, Shield, Cpu, Box, Code, MapPin, ExternalLink, GraduationCap, Trophy, Monitor, Terminal, Brain } from "lucide-react";
+import { ArrowUpRight, Mail, Shield, Cpu, Box, Code, MapPin, Monitor, Terminal, Radar, Network } from "lucide-react";
 import Image from "next/image";
 import { Github as GithubIcon, Linkedin as LinkedinIcon, Twitter as TwitterIcon } from "./Icons";
 
@@ -75,6 +75,31 @@ const mainProjects = [
     images: [
       "/projects/1759323900572.jpeg",
       "/projects/1759323900855.jpeg"
+    ]
+  },
+  {
+    title: "Sentinel: Network Traffic Analyzer",
+    tag: "Cybersecurity / Python",
+    desc: "Professional-grade network sniffer and analysis dashboard. Real-time packet dissection with Scapy, high-speed data manipulation via Pandas, and a responsive Streamlit frontend — built for homelabs and security education.",
+    href: "https://github.com/BHUVANBN/Network-Traffic-Analyzer",
+    icon: <Radar className="w-4 h-4" />,
+    images: [
+      "/projects/Screenshot From 2026-05-07 18-23-44.png",
+      "/projects/Screenshot From 2026-05-07 18-23-18.png",
+      "/projects/Screenshot From 2026-05-07 18-22-56.png"
+    ]
+  },
+  {
+    title: "intelli-SOC: AI-Powered Security Operations Center",
+    tag: "AI / Cybersecurity",
+    desc: "Next-gen SOC platform combining XGBoost + SHAP explainable AI, cross-layer network & endpoint telemetry, and MITRE ATT&CK mapping. Processes 100k+ events/sec with automated response playbooks and zero-day anomaly detection via DBSCAN.",
+    href: "https://github.com/BHUVANBN/intelliSOC",
+    icon: <Network className="w-4 h-4" />,
+    imagePosition: "left",
+    images: [
+      "/projects/Screenshot From 2026-04-22 22-09-24.png",
+      "/projects/Screenshot From 2026-04-22 22-13-44.png",
+      "/projects/Screenshot From 2026-04-22 22-36-01.png"
     ]
   }
 ];

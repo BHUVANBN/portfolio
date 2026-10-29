@@ -122,7 +122,7 @@ export default function BentoProfile() {
           >
             <div className="w-full relative border-b border-white/5 bg-[#0a0a0a]">
               <img
-                src="/Gemini_Generated_Image_3npki23npki23npk.png"
+                src="/Vintage Geometric Portrait Poster.png"
                 alt="Bhuvan B N"
                 className="w-full h-auto block grayscale hover:grayscale-0 transition-all duration-500"
               />
